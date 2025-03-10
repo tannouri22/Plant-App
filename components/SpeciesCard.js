@@ -11,7 +11,7 @@ export default function SpeciesCard({ sp }){
                     height={100}
                     width={100} 
                     src={sp.image_url} 
-                    alt={sp.common_name} 
+                    alt={sp.common_name || sp.name } 
                     className="image-contain"
                 />
                 <div>

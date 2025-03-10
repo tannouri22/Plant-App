@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     domains: [
         "bs.plantnet.org",
-        "d2seqvvyy3b8p2.cloudfront.net" // Change this to the actual image domain
+        "d2seqvvyy3b8p2.cloudfront.net",
+        "storage.googleapis.com"
     ],
   },
 };
